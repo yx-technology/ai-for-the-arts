@@ -38,7 +38,7 @@ Ihearu aims to address these limitations by offering personalised and responsive
 
 ### 4.1 Universal Design for Learning (UDL)
 
-VoiceBridge supports multiple modes of learning:
+Ihearu supports multiple modes of learning:
 
 * **Representation:** text, visuals, stories, structured lists.
 * **Expression:** short responses, voice-based replies, guided prompts.
@@ -54,7 +54,7 @@ To reduce extraneous load:
 
 ### 4.3 Vygotsky’s Zone of Proximal Development (ZPD)
 
-VoiceBridge functions as an adaptive tutor, keeping tasks within a learner's ZPD by dynamically adjusting complexity.
+Ihearu functions as an adaptive tutor, keeping tasks within a learner's ZPD by dynamically adjusting complexity.
 
 ### 4.4 Krashen’s Input Hypothesis
 
@@ -67,7 +67,7 @@ The system delivers input that is:
 
 ### 4.5 Neurodiversity Paradigm
 
-The design is grounded in the view that cognitive variation is natural and valuable. VoiceBridge avoids pathologising tone and gives learners agency in shaping interaction.
+The design is grounded in the view that cognitive variation is natural and valuable. Ihearu avoids pathologising tone and gives learners agency in shaping interaction.
 
 ---
 
@@ -114,7 +114,7 @@ The design is grounded in the view that cognitive variation is natural and valua
 
 **User:** I get lost with long explanations. Can you teach past tense simply?
 
-**VoiceBridge:** Sure.
+**Ihearu:** Sure.
 Rule: past = already happened.
 Form: verb + *-ed*.
 Example: "I walk" → "I walked".
