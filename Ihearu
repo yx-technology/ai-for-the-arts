@@ -1,0 +1,197 @@
+# Ihearu: Inclusive language learning tool with LLMs
+**Goal: Present a design for an appplication that uses a Large Language Model (LLM)**
+
+## 1. Introduction
+
+Ihearu is a conceptual design for an adaptive, neurodivergent-friendly language learning tool powered by large language models (LLMs). It highlights:
+
+- how LLMs interpret user inputs, adjust style, detect error patterns, and scaffold learning,
+- how human preferences and feedback loops guide AI behaviour,
+- how the system supports underrepresented groups through accessibility-focused interaction design, and
+- how cultural and educational engagement can be broadened using adaptive AI methods.
+
+This notebook outlines the system design, theory, and critical reflection on social and cultural implications.
+
+---
+
+## 2. Problem faced
+
+Traditional language-learning systems adopt one-size-fits-all instruction patterns whereas neurodiverse learners like those with ADHD and autism spectrum conditions often face barriers like:
+
+- rigid pacing 
+- limited multimodal explanation options
+- overwhelming cognitive load and anxiety
+
+Ihearu aims to address these limitations by offering personalised and responsive language-learning interactions.
+
+---
+
+## 3. System Goals
+
+- Autonomous learning
+- Adaptive multimodal output 
+- Simple interface
+
+---
+
+## 4. Theoretical Foundations
+
+### 4.1 Universal Design for Learning (UDL)
+
+VoiceBridge supports multiple modes of learning:
+
+* **Representation:** text, visuals, stories, structured lists.
+* **Expression:** short responses, voice-based replies, guided prompts.
+* **Engagement:** calming tone, gamified tone, narrative tone.
+
+### 4.2 Cognitive Load Theory (Sweller)
+
+To reduce extraneous load:
+
+* Instructions are chunked.
+* Syntax and vocabulary are level-matched.
+* Visual scaffolds assist working memory.
+
+### 4.3 Vygotsky’s Zone of Proximal Development (ZPD)
+
+VoiceBridge functions as an adaptive tutor, keeping tasks within a learner's ZPD by dynamically adjusting complexity.
+
+### 4.4 Krashen’s Input Hypothesis
+
+The system delivers input that is:
+
+* comprehensible
+* slightly beyond current ability (i+1)
+* contextual
+* emotionally safe
+
+### 4.5 Neurodiversity Paradigm
+
+The design is grounded in the view that cognitive variation is natural and valuable. VoiceBridge avoids pathologising tone and gives learners agency in shaping interaction.
+
+---
+
+## 5. System Architecture Overview
+
+### 5.1 Components
+
+* **LLM Core:** Handles text generation, explanation, and style modulation.
+* **Preference Engine:** Stores user preferences for interaction modes.
+* **Adaptive Scaffolding Loop:** Interprets user feedback to adjust complexity.
+* **Semantic Error Classifier:** Detects learner mistakes via embeddings.
+* **Conversation Memory:** Tracks progress across sessions.
+* **Optional Retrieval Layer:** Supplies verified grammar examples.
+
+### 5.2 High-Level Flow
+
+1. User selects or discovers preferred learning mode.
+2. Learner submits question or exercise attempt.
+3. LLM adapts:
+
+   * pacing
+   * tone
+   * structure
+   * complexity
+4. System logs errors and successes.
+5. Scaffolding loop updates difficulty.
+6. Reflection prompt encourages metacognition.
+
+---
+
+## 6. Interaction Modes
+
+* **Minimalist Mode:** Short sentences; low sensory load.
+* **Story Mode:** Narrative explanations and contextual learning.
+* **Visual Mode:** ASCII diagrams, tables, structured lists.
+* **Literal Mode:** Highly consistent, straightforward wording.
+* **Gamified Mode:** Rewards, challenges, energetic tone.
+
+---
+
+## 7. Example Chat Interactions
+
+### 7.1 Simplification Example
+
+**User:** I get lost with long explanations. Can you teach past tense simply?
+
+**VoiceBridge:** Sure.
+Rule: past = already happened.
+Form: verb + *-ed*.
+Example: "I walk" → "I walked".
+Your turn.
+
+---
+
+## 8. Formal Design Specification
+
+### 8.1 Design Principles
+
+* **Accessibility first:** Interaction flows designed to accommodate diverse cognitive needs.
+* **Contextual scaffolding:** Difficulty adapts continuously.
+* **Conversational coherence:** LLM responses maintain stable tone and clarity.
+* **Reflection-oriented:** Learners encouraged to articulate preferences.
+
+### 8.2 Functional Requirements
+
+* System must allow user selection of multiple interaction modes.
+* Responses must be modifiable by tone/reading level.
+* System must detect signs of confusion or overload.
+* Must provide multimodal explanations on demand.
+* Must track error patterns for targeted support.
+
+### 8.3 Non-Functional Requirements
+
+* **Usability:** Low cognitive friction.
+* **Transparency:** AI-generated explanations labelled as synthetic.
+* **Privacy:** User preferences and learning patterns safeguarded.
+* **Cultural Sensitivity:** Avoid culturally biased examples.
+
+### 8.4 Key Design Challenges
+
+* Avoiding accidental cognitive profiling.
+* Maintaining accuracy while simplifying.
+* Preventing over-dependence on the AI.
+
+---
+
+## 9. Critical Reflection
+
+### 9.1 Ethical Considerations
+
+* **Risk of implicit diagnosis:** The system must not infer cognitive traits.
+* **Power asymmetry:** Learners may assume AI has unquestionable authority.
+* **Dependence:** Overuse may reduce independent problem-solving.
+
+### 9.2 Cultural Implications
+
+* Grammar and vocabulary examples may inadvertently reflect majority cultural norms.
+* Additional care required to avoid reinforcing stereotypes.
+* Users should be able to request culturally relevant content.
+
+### 9.3 Social Implications
+
+* Could significantly increase access to language education.
+* May empower users who struggle in traditional classrooms.
+* Could reduce educational inequalities for neurodiverse learners.
+
+### 9.4 Mitigation Strategies
+
+* Offer transparent uncertainty cues.
+* Encourage user agency through customisation.
+* Provide diverse culturally neutral examples.
+* Offer time-management boundaries to prevent burnout.
+
+---
+
+## 10. Conclusion
+
+Ihearu demonstrates how LLMs can provide personalised, accessible, and empowering language-learning experiences for neurodiverse learners. Rooted in strong theoretical foundations and mindful of ethical implications, the system showcases the potential for AI to enhance inclusive education.
+
+---
+
+## 11. Next Steps
+
+* Prototype conversational interface.
+* Evaluate user experience with neurodiverse participants.
+* Conduct bias and accessibility audits.
+* Integrate optional speech-based interaction.
