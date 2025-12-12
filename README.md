@@ -1,7 +1,7 @@
 # AI for the Arts and Humanities Portfolio
 This repository contains my portfolio work for the AI for the Arts and Humanities (A) course. It includes my coding exercises, notes, reflections, and creative design tasks completed across the semester. The focus of the course is on understanding code, using AI-assisted tools, and critically engaging with the social and cultural implications of AI.
 
-<br><hr><br>
+--
 
 **Content**  
 - Part 1 – Setting Up the Environment:
